@@ -9,6 +9,8 @@ jobs:
         - name: list files
           run: |
             ls    
+        - name: open the file
+          run: cat README.md    
             
 
     
