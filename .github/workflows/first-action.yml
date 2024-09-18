@@ -1,0 +1,11 @@
+name: first work flow
+on: push
+jobs:
+    my_first_job: 
+     runs-on: ubuntu-latest
+     steps:
+        - name: hello message 
+          run: echo "hello world"
+        
+
+    
