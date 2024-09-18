@@ -7,6 +7,8 @@ jobs:
         - name: hello message 
           run: echo "hello world"
         - name: list files
-          run: ls
+          run: |
+            ls    
+            
 
     
